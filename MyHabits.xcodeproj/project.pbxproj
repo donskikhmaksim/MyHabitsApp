@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		16E2082329A39947003FE809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2082229A39947003FE809 /* AppDelegate.swift */; };
 		16E2082529A39947003FE809 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2082429A39947003FE809 /* SceneDelegate.swift */; };
-		16E2082729A39947003FE809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2082629A39947003FE809 /* ViewController.swift */; };
+		16E2082729A39947003FE809 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2082629A39947003FE809 /* HabitsViewController.swift */; };
 		16E2082C29A39949003FE809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E2082B29A39949003FE809 /* Assets.xcassets */; };
 		16E2082F29A39949003FE809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E2082D29A39949003FE809 /* LaunchScreen.storyboard */; };
 		16E2083729A3A1A3003FE809 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2083629A3A1A3003FE809 /* HabitsStore.swift */; };
 		16E2083A29A3ADAC003FE809 /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2083929A3ADAC003FE809 /* TapBarController.swift */; };
+		16E2083C29A3B5F0003FE809 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2083B29A3B5EF003FE809 /* AppCoordinator.swift */; };
+		16E2083E29A3B73D003FE809 /* HabitsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2083D29A3B73D003FE809 /* HabitsCoordinator.swift */; };
+		16E2084129A3B76D003FE809 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084029A3B76D003FE809 /* Coordinatable.swift */; };
+		16E2084329A3B77D003FE809 /* InfoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084229A3B77D003FE809 /* InfoCoordinator.swift */; };
+		16E2084529A3B8E4003FE809 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084429A3B8E4003FE809 /* ModuleFactory.swift */; };
+		16E2084729A3B971003FE809 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084629A3B971003FE809 /* Module.swift */; };
+		16E2084929A3BC5A003FE809 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084829A3BC5A003FE809 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16E2081F29A39947003FE809 /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E2082229A39947003FE809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16E2082429A39947003FE809 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		16E2082629A39947003FE809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16E2082629A39947003FE809 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
 		16E2082B29A39949003FE809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16E2082E29A39949003FE809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16E2083029A39949003FE809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E2083629A3A1A3003FE809 /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
 		16E2083929A3ADAC003FE809 /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
+		16E2083B29A3B5EF003FE809 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		16E2083D29A3B73D003FE809 /* HabitsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsCoordinator.swift; sourceTree = "<group>"; };
+		16E2084029A3B76D003FE809 /* Coordinatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
+		16E2084229A3B77D003FE809 /* InfoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCoordinator.swift; sourceTree = "<group>"; };
+		16E2084429A3B8E4003FE809 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		16E2084629A3B971003FE809 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		16E2084829A3BC5A003FE809 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,17 @@
 		16E2082129A39947003FE809 /* MyHabits */ = {
 			isa = PBXGroup;
 			children = (
+				16E2083F29A3B74B003FE809 /* Coordinators */,
 				16E2083829A3AC90003FE809 /* AppDelegate */,
-				16E2082629A39947003FE809 /* ViewController.swift */,
+				16E2082629A39947003FE809 /* HabitsViewController.swift */,
+				16E2084829A3BC5A003FE809 /* InfoViewController.swift */,
 				16E2082B29A39949003FE809 /* Assets.xcassets */,
 				16E2082D29A39949003FE809 /* LaunchScreen.storyboard */,
 				16E2083929A3ADAC003FE809 /* TapBarController.swift */,
 				16E2083029A39949003FE809 /* Info.plist */,
 				16E2083629A3A1A3003FE809 /* HabitsStore.swift */,
+				16E2084429A3B8E4003FE809 /* ModuleFactory.swift */,
+				16E2084629A3B971003FE809 /* Module.swift */,
 			);
 			path = MyHabits;
 			sourceTree = "<group>";
@@ -76,6 +94,17 @@
 				16E2082429A39947003FE809 /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		16E2083F29A3B74B003FE809 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				16E2083B29A3B5EF003FE809 /* AppCoordinator.swift */,
+				16E2083D29A3B73D003FE809 /* HabitsCoordinator.swift */,
+				16E2084229A3B77D003FE809 /* InfoCoordinator.swift */,
+				16E2084029A3B76D003FE809 /* Coordinatable.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,10 +177,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E2083C29A3B5F0003FE809 /* AppCoordinator.swift in Sources */,
 				16E2083729A3A1A3003FE809 /* HabitsStore.swift in Sources */,
+				16E2084529A3B8E4003FE809 /* ModuleFactory.swift in Sources */,
 				16E2083A29A3ADAC003FE809 /* TapBarController.swift in Sources */,
-				16E2082729A39947003FE809 /* ViewController.swift in Sources */,
+				16E2082729A39947003FE809 /* HabitsViewController.swift in Sources */,
+				16E2083E29A3B73D003FE809 /* HabitsCoordinator.swift in Sources */,
+				16E2084129A3B76D003FE809 /* Coordinatable.swift in Sources */,
+				16E2084329A3B77D003FE809 /* InfoCoordinator.swift in Sources */,
 				16E2082329A39947003FE809 /* AppDelegate.swift in Sources */,
+				16E2084729A3B971003FE809 /* Module.swift in Sources */,
+				16E2084929A3BC5A003FE809 /* InfoViewController.swift in Sources */,
 				16E2082529A39947003FE809 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

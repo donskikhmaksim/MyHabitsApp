@@ -8,7 +8,8 @@
 import UIKit
 
 final class TabBarController: UITabBarController {
-    init(viewControllers: [ViewController]) {
+    
+    init(viewControllers: [UIViewController]) {
         super.init(nibName: nil, bundle: nil)
         self.viewControllers = viewControllers
     }
