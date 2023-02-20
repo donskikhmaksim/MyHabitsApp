@@ -8,12 +8,21 @@
 import UIKit
 
 class HabitsViewController: UIViewController {
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        setupUI()
     }
-
+    
+    private func setupUI() {
+        view.backgroundColor = .white
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(testFunc))
+    }
+    
+    @objc private func testFunc() {
+        print("test")
+    }
 
 }
 
