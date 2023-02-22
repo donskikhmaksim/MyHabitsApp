@@ -22,6 +22,9 @@
 		16E2084729A3B971003FE809 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084629A3B971003FE809 /* Module.swift */; };
 		16E2084929A3BC5A003FE809 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084829A3BC5A003FE809 /* InfoViewController.swift */; };
 		16E2084B29A4B9EC003FE809 /* ParagraphLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084A29A4B9EC003FE809 /* ParagraphLabel.swift */; };
+		16E2084D29A649F7003FE809 /* HabitsViewControllerHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084C29A649F7003FE809 /* HabitsViewControllerHeaderFooterView.swift */; };
+		16E2084F29A64A4C003FE809 /* HabitsViewControllerCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084E29A64A4C003FE809 /* HabitsViewControllerCustomCell.swift */; };
+		16E2085129A655E8003FE809 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2085029A655E8003FE809 /* HabitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		16E2084629A3B971003FE809 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
 		16E2084829A3BC5A003FE809 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		16E2084A29A4B9EC003FE809 /* ParagraphLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphLabel.swift; sourceTree = "<group>"; };
+		16E2084C29A649F7003FE809 /* HabitsViewControllerHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewControllerHeaderFooterView.swift; sourceTree = "<group>"; };
+		16E2084E29A64A4C003FE809 /* HabitsViewControllerCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewControllerCustomCell.swift; sourceTree = "<group>"; };
+		16E2085029A655E8003FE809 /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 				16E2083F29A3B74B003FE809 /* Coordinators */,
 				16E2083829A3AC90003FE809 /* AppDelegate */,
 				16E2082629A39947003FE809 /* HabitsViewController.swift */,
+				16E2085029A655E8003FE809 /* HabitViewController.swift */,
 				16E2084829A3BC5A003FE809 /* InfoViewController.swift */,
 				16E2082B29A39949003FE809 /* Assets.xcassets */,
 				16E2082D29A39949003FE809 /* LaunchScreen.storyboard */,
@@ -86,6 +93,8 @@
 				16E2084429A3B8E4003FE809 /* ModuleFactory.swift */,
 				16E2084629A3B971003FE809 /* Module.swift */,
 				16E2084A29A4B9EC003FE809 /* ParagraphLabel.swift */,
+				16E2084C29A649F7003FE809 /* HabitsViewControllerHeaderFooterView.swift */,
+				16E2084E29A64A4C003FE809 /* HabitsViewControllerCustomCell.swift */,
 			);
 			path = MyHabits;
 			sourceTree = "<group>";
@@ -182,6 +191,7 @@
 			files = (
 				16E2083C29A3B5F0003FE809 /* AppCoordinator.swift in Sources */,
 				16E2083729A3A1A3003FE809 /* HabitsStore.swift in Sources */,
+				16E2084D29A649F7003FE809 /* HabitsViewControllerHeaderFooterView.swift in Sources */,
 				16E2084529A3B8E4003FE809 /* ModuleFactory.swift in Sources */,
 				16E2083A29A3ADAC003FE809 /* TapBarController.swift in Sources */,
 				16E2082729A39947003FE809 /* HabitsViewController.swift in Sources */,
@@ -190,6 +200,8 @@
 				16E2084129A3B76D003FE809 /* Coordinatable.swift in Sources */,
 				16E2084329A3B77D003FE809 /* InfoCoordinator.swift in Sources */,
 				16E2082329A39947003FE809 /* AppDelegate.swift in Sources */,
+				16E2085129A655E8003FE809 /* HabitViewController.swift in Sources */,
+				16E2084F29A64A4C003FE809 /* HabitsViewControllerCustomCell.swift in Sources */,
 				16E2084729A3B971003FE809 /* Module.swift in Sources */,
 				16E2084929A3BC5A003FE809 /* InfoViewController.swift in Sources */,
 				16E2082529A39947003FE809 /* SceneDelegate.swift in Sources */,
