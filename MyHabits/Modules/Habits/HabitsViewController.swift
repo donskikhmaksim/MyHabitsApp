@@ -26,7 +26,7 @@ class HabitsViewController: UITableViewController {
     }
     
     @objc private func pushHabitVC() {
-        let vc = HabitViewController()
+        let vc = UINavigationController(rootViewController: HabitViewController())
         present(vc, animated: true)
     }
 

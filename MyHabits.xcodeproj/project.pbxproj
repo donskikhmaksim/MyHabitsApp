@@ -80,21 +80,14 @@
 		16E2082129A39947003FE809 /* MyHabits */ = {
 			isa = PBXGroup;
 			children = (
+				16E2085929A69C7F003FE809 /* Resources */,
+				16E2085829A69B76003FE809 /* Custom UI */,
+				16E2085729A69B49003FE809 /* TabBar */,
+				16E2085629A69B34003FE809 /* Factory */,
+				16E2085529A69B0C003FE809 /* Services */,
 				16E2083F29A3B74B003FE809 /* Coordinators */,
 				16E2083829A3AC90003FE809 /* AppDelegate */,
-				16E2082629A39947003FE809 /* HabitsViewController.swift */,
-				16E2085029A655E8003FE809 /* HabitViewController.swift */,
-				16E2084829A3BC5A003FE809 /* InfoViewController.swift */,
-				16E2082B29A39949003FE809 /* Assets.xcassets */,
-				16E2082D29A39949003FE809 /* LaunchScreen.storyboard */,
-				16E2083929A3ADAC003FE809 /* TapBarController.swift */,
-				16E2083029A39949003FE809 /* Info.plist */,
-				16E2083629A3A1A3003FE809 /* HabitsStore.swift */,
-				16E2084429A3B8E4003FE809 /* ModuleFactory.swift */,
-				16E2084629A3B971003FE809 /* Module.swift */,
-				16E2084A29A4B9EC003FE809 /* ParagraphLabel.swift */,
-				16E2084C29A649F7003FE809 /* HabitsViewControllerHeaderFooterView.swift */,
-				16E2084E29A64A4C003FE809 /* HabitsViewControllerCustomCell.swift */,
+				16E2085229A69AB1003FE809 /* Modules */,
 			);
 			path = MyHabits;
 			sourceTree = "<group>";
@@ -117,6 +110,77 @@
 				16E2084029A3B76D003FE809 /* Coordinatable.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		16E2085229A69AB1003FE809 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				16E2084629A3B971003FE809 /* Module.swift */,
+				16E2085429A69AEC003FE809 /* Info */,
+				16E2085329A69ACF003FE809 /* Habits */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		16E2085329A69ACF003FE809 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				16E2084C29A649F7003FE809 /* HabitsViewControllerHeaderFooterView.swift */,
+				16E2084E29A64A4C003FE809 /* HabitsViewControllerCustomCell.swift */,
+				16E2082629A39947003FE809 /* HabitsViewController.swift */,
+				16E2085029A655E8003FE809 /* HabitViewController.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		16E2085429A69AEC003FE809 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				16E2084829A3BC5A003FE809 /* InfoViewController.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		16E2085529A69B0C003FE809 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				16E2083629A3A1A3003FE809 /* HabitsStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		16E2085629A69B34003FE809 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				16E2084429A3B8E4003FE809 /* ModuleFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		16E2085729A69B49003FE809 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				16E2083929A3ADAC003FE809 /* TapBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		16E2085829A69B76003FE809 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				16E2084A29A4B9EC003FE809 /* ParagraphLabel.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		16E2085929A69C7F003FE809 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16E2082D29A39949003FE809 /* LaunchScreen.storyboard */,
+				16E2083029A39949003FE809 /* Info.plist */,
+				16E2082B29A39949003FE809 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,7 +409,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 82KQ5UJRH9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyHabits/Info.plist;
+				INFOPLIST_FILE = MyHabits/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -373,7 +437,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 82KQ5UJRH9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyHabits/Info.plist;
+				INFOPLIST_FILE = MyHabits/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
