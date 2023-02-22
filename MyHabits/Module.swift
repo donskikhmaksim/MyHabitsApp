@@ -27,9 +27,9 @@ extension Module.ModuleType {
     var tabBarItem: UITabBarItem {
         switch self {
         case .habits:
-            return UITabBarItem(title: Module.Constants.habitsTitle.rawValue, image: .add, tag: 0)
+            return UITabBarItem(title: Module.Constants.habitsTitle.rawValue, image: UIImage(named: "habits_tab_icon"), tag: 0)
         case .info:
-            return UITabBarItem(title: Module.Constants.infoTitle.rawValue, image: .checkmark, tag: 1)
+            return UITabBarItem(title: Module.Constants.infoTitle.rawValue, image: UIImage(systemName: "info.circle.fill"), tag: 1)
         }
     }
 }

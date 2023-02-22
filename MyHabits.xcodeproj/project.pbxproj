@@ -21,6 +21,7 @@
 		16E2084529A3B8E4003FE809 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084429A3B8E4003FE809 /* ModuleFactory.swift */; };
 		16E2084729A3B971003FE809 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084629A3B971003FE809 /* Module.swift */; };
 		16E2084929A3BC5A003FE809 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084829A3BC5A003FE809 /* InfoViewController.swift */; };
+		16E2084B29A4B9EC003FE809 /* ParagraphLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2084A29A4B9EC003FE809 /* ParagraphLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		16E2084429A3B8E4003FE809 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
 		16E2084629A3B971003FE809 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
 		16E2084829A3BC5A003FE809 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		16E2084A29A4B9EC003FE809 /* ParagraphLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				16E2083629A3A1A3003FE809 /* HabitsStore.swift */,
 				16E2084429A3B8E4003FE809 /* ModuleFactory.swift */,
 				16E2084629A3B971003FE809 /* Module.swift */,
+				16E2084A29A4B9EC003FE809 /* ParagraphLabel.swift */,
 			);
 			path = MyHabits;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				16E2084529A3B8E4003FE809 /* ModuleFactory.swift in Sources */,
 				16E2083A29A3ADAC003FE809 /* TapBarController.swift in Sources */,
 				16E2082729A39947003FE809 /* HabitsViewController.swift in Sources */,
+				16E2084B29A4B9EC003FE809 /* ParagraphLabel.swift in Sources */,
 				16E2083E29A3B73D003FE809 /* HabitsCoordinator.swift in Sources */,
 				16E2084129A3B76D003FE809 /* Coordinatable.swift in Sources */,
 				16E2084329A3B77D003FE809 /* InfoCoordinator.swift in Sources */,
